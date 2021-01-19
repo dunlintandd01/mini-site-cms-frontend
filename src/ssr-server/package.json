@@ -1,7 +1,7 @@
 {
   "name": "ssr-server",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "develop": "cross-env NODE_ENV='development' concurrently -n w: 'yarn:develop:*'",
     "develop:node": "nodemon -e js,ejs,html --experimental-loader @node-loader/core server/server.js",
