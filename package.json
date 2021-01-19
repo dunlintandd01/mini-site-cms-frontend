@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "serve": "lerna run serve --parallel",
+    "develop": "lerna run develop --parallel"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "single-spa-react": "^3.2.0",
+    "single-spa-vue": "^2.1.0"
+  }
+}
